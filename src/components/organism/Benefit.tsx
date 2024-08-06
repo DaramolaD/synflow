@@ -1,6 +1,6 @@
 import React from 'react'
-import Heading2 from '../atom/Heading2'
-import BenefitItem from '../molecules/BenefitItem'
+import Heading2 from '@/components/atom/Heading2'
+import BenefitItem from '@/components/molecules/BenefitItem'
 
 const Benefit = () => {
   return (

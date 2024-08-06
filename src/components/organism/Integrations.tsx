@@ -1,7 +1,7 @@
 import React from "react";
-import IntegrationNote from "../atom/integrationNote";
+import IntegrationNote from "@/components/atom/IntegrationNote";
 import Image from "next/image";
-import integration from "@/public/integration.svg";
+import integration from "@/assets/integration.svg";
 
 const Integrations = () => {
   return (

@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import logo from "@/public/Logo.svg"
+import logo from "@/assets/Logo.svg"
 
 const Logo = ({ width = 162, height = 44, className = '', ...props }) => {
   return (

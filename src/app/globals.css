@@ -60,10 +60,17 @@
 }
 
 @layer base {
-  * {
-    @apply border-border;
-  }
-  body {
+  /* body {
     @apply bg-background text-foreground;
-  }
+  } */
+}
+
+
+.sectionContainer {
+  max-width: 1536px;
+  width: 100%;
+  margin: auto;
+}
+.borderStatus {
+  border-radius: 80px 16px;
 }

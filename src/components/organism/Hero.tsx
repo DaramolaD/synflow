@@ -1,11 +1,11 @@
 import React from "react";
-import HeroNote from "../molecules/HeroNote";
-import Cta from "../molecules/Cta";
+import HeroNote from "@/components/molecules/HeroNote";
+import Cta from "@/components/molecules/Cta";
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
-import heroDashboard from "@/public/heroDashboard.svg";
-import heroDashboardMobile from "@/public/heroDashboardMobile.svg";
-import Brands from "../molecules/Brands";
+import heroDashboard from "@/assets/heroDashboard.svg";
+import heroDashboardMobile from "@/assets/heroDashboardMobile.svg";
+import Brands from "@/components/molecules/Brands";
 
 const Hero = () => {
   return (

@@ -1,11 +1,11 @@
 import React from "react";
-import calendly from "@/public/calendly.svg";
-import flutterwave from "@/public/flutterwave.svg";
-import googleAnalytic from "@/public/googleAnalytic.svg";
-import plaid from "@/public/plaid.svg";
-import shopify from "@/public/shopify.svg";
-import slack from "@/public/slack.svg";
-import stripe from "@/public/stripe.svg";
+import calendly from "@/assets/calendly.svg";
+import flutterwave from "@/assets/flutterwave.svg";
+import googleAnalytic from "@/assets/googleAnalytic.svg";
+import plaid from "@/assets/plaid.svg";
+import shopify from "@/assets/shopify.svg";
+import slack from "@/assets/slack.svg";
+import stripe from "@/assets/stripe.svg";
 import Image from "next/image";
 
 const Brands = () => {

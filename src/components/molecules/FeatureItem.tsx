@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import Row from "@/public/staff.svg";
-import ItemParagraph from "../atom/ItemParagraph";
+import Row from "@/assets/staff.svg";
+import ItemParagraph from "@/components/atom/ItemParagraph";
 
 type FeatureItemProps = {
   featureState: string;

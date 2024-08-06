@@ -1,12 +1,12 @@
 import React from "react";
 import ItemParagraph from "../atom/ItemParagraph";
 import Image from "next/image";
-import simplifyBenefit from "@/public/simplifyBenefit.svg";
-import decisionBenefit from "@/public/decisionBenefit.svg";
-import gainBenefit from "@/public/gainBenefit.svg";
-import enhanceBenefit from "@/public/enhanceBenefit.svg";
-import stableBenefit from "@/public/stableBenefit.svg";
-import bootBenefit from "@/public/bootBenefit.svg";
+import simplifyBenefit from "@/assets/simplifyBenefit.svg";
+import decisionBenefit from "@/assets/decisionBenefit.svg";
+import gainBenefit from "@/assets/gainBenefit.svg";
+import enhanceBenefit from "@/assets/enhanceBenefit.svg";
+import stableBenefit from "@/assets/stableBenefit.svg";
+import bootBenefit from "@/assets/bootBenefit.svg";
 
 type BenefitProps = {
   title: string;

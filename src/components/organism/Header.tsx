@@ -1,10 +1,10 @@
 "use client";
 import React, { useState } from "react";
-import Logo from "../atom/Logo";
+import Logo from "@/components/atom/Logo";
 import { NavigationMenuDemo } from "../molecules/NavLink";
-import Cta from "../molecules/Cta";
+import Cta from "@/components/molecules/Cta";
 import { Menu, X } from "lucide-react";
-import MobileNav from "../molecules/MobileNav";
+import MobileNav from "@/components/molecules/MobileNav";
 
 const Header = () => {
   const [menuToggle, setMenuToggle] = useState(false);

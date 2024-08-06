@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
-import Heading2 from "../atom/Heading2";
-import FeatureItem from "../molecules/FeatureItem";
+import Heading2 from "@/components/atom/Heading2";
+import FeatureItem from "@/components/molecules/FeatureItem";
 export type Props = {
   titleState: string;
   featureState: string;
