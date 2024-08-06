@@ -12,7 +12,7 @@ import avatar_9 from "@/assets/avatar_9.jpg";
 
 const Testimonies = () => {
   return (
-    <div className="sectionContainer px-5 md:px-10 overflow-hidden w-full">
+    <div className="sectionContainer px-5 md:px-10 pt-10 pb-7 md:pb-12 md:pt-14 overflow-hidden w-full">
       <div className="flex flex-col gap-10 md:gap-16 items-center justify-center bg-dark-60 px-3 pt-10 pb-7 rounded-2xl md:rounded-[50px]">
         <div className="flex flex-col gap-4 text-center items-center justify-center">
           <div className="flex px-5 p-3 w-fit bg-gradient-to-t from-primary-main to-primary-15 rounded-xl">
