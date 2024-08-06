@@ -24,7 +24,7 @@ const BenefitItem = () => {
           <Image
             alt={data.text}
             src={data.img}
-            className="w-full hover:bg-gray-b_g-60"
+            className="w-full border border-dark-60 hover:bg-gray-b_g-60"
           />
         </div>
       ))}
