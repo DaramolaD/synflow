@@ -5,6 +5,7 @@ import Features from "@/components/organism/Features";
 import Header from "@/components/organism/Header";
 import Hero from "@/components/organism/Hero";
 import Integrations from "@/components/organism/Integrations";
+import Testimonies from "@/components/organism/Testimonies";
 import Image from "next/image";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <Benefit />
       <Integrations />
       <CaseStudies />
+      <Testimonies />
     </main>
   );
 }
