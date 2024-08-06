@@ -22,12 +22,12 @@ const TestimonyItem: React.FC<TestimonyProps> = ({ testimony }) => {
           height={50}
           className="rounded-full"
         />
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-1 md:gap-2">
           <p className="font-semibold">{testimony.name}</p>
           <p className="text-sm text-gray-600">{testimony.startup}</p>
         </div>
       </div>
-      <p className="mt-4 text-gray-700">{testimony.msg}</p>
+      <p className="text-sm md:text-base mt-4 text-gray-700">{testimony.msg}</p>
     </div>
   );
 };

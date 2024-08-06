@@ -10,7 +10,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="grid gap-16">
+    <main className="grid gap-16 md:gap-20">
        <Header />
       <Hero/>
       <Features />

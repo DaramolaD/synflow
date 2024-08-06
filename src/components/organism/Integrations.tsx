@@ -19,7 +19,7 @@ const Integrations = () => {
             streamline your data flow and enhance functionality
           </p>
         </div>
-        <div className="relative flex w-full max-w-full min-h-96 h-auto items-center justify-center">
+        <div className="relative flex w-full max-w-full min-h-40 md:min-h-96 h-auto items-center justify-center">
           <Image
             fill
             alt="integration"
