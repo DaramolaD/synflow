@@ -18,6 +18,9 @@ const config = {
       },
     },
     extend: {
+      screens: {
+        tablet: "995px",
+      },
       colors: {
         primary: {
           main: "#42E26F",
