@@ -1,12 +1,12 @@
 "use client"
 import Benefit from "@/components/organism/Benefit";
 import CaseStudies from "@/components/organism/CaseStudies";
+import CTA from "@/components/organism/CTA";
 import Features from "@/components/organism/Features";
 import Header from "@/components/organism/Header";
 import Hero from "@/components/organism/Hero";
 import Integrations from "@/components/organism/Integrations";
 import Testimonies from "@/components/organism/Testimonies";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -18,6 +18,7 @@ export default function Home() {
       <Integrations />
       <CaseStudies />
       <Testimonies />
+      <CTA />
     </main>
   );
 }

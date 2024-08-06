@@ -85,6 +85,7 @@ const config = {
         dark: {
           50: "#f6f6f9",
           60: "#FAFAFA",
+          70: "#E4E4E7",
           100: "#ecebf3",
           200: "#d6d4e3",
           300: "#b0aecb",
