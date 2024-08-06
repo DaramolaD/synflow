@@ -5,7 +5,7 @@ import integration from "@/assets/integration.svg";
 
 const Integrations = () => {
   return (
-    <div className="flex flex-col gap-6 px-5 md:px-10 py-5">
+    <div className="sectionContainer flex flex-col gap-6 px-5 md:px-10 py-5">
       <IntegrationNote />
       <div className="grid gap-6">
         <div className="grid gap-2">
