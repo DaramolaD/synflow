@@ -146,6 +146,14 @@ const config = {
           bg: "#FFEEEE",
           border: "#F78282",
         },
+        popover: {
+          DEFAULT: "hsl(var(--popover))",
+          foreground: "hsl(var(--popover-foreground))",
+        },
+        accent: {
+          DEFAULT: "hsl(var(--accent))",
+          foreground: "hsl(var(--accent-foreground))",
+        },
         headerColor: "#CAF6D0",
       },
       backgroundImage: {

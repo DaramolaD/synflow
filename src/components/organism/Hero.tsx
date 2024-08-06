@@ -1,11 +1,11 @@
 import React from "react";
-import HeroNote from "@/components/molecules/HeroNote";
-import Cta from "@/components/molecules/Cta";
+import HeroNote from "../molecules/HeroNote";
+import Cta from "../molecules/Cta";
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import heroDashboard from "@/assets/heroDashboard.svg";
 import heroDashboardMobile from "@/assets/heroDashboardMobile.svg";
-import Brands from "@/components/molecules/Brands";
+import Brands from "../molecules/Brands";
 
 const Hero = () => {
   return (
@@ -16,7 +16,7 @@ const Hero = () => {
           <h1 className="text-black text-3xl md:text-5xl font-medium max-w-[833px] text-left md:text-center">
             Effortlessly Manage All Your Startup&apos;s Finances in One Place
           </h1>
-          <p className="text-black text-lg md:text-2xl max-w-[702px] text-left md:text-center">
+          <p className="text-black text-lg md:text-2xl max-w-3xl text-left md:text-center">
             SynFlow helps you streamline payments, automate payroll, and access
             real-time financial insights, so you can focus on growth.
           </p>
