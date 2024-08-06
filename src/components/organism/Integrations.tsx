@@ -20,7 +20,7 @@ const Integrations = () => {
           </p>
         </div>
         <div className="relative flex w-full items-center justify-center">
-          <Image full alt="integration" src={integration} />
+          <Image fill alt="integration" src={integration} />
         </div>
       </div>
     </div>
