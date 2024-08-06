@@ -1,10 +1,10 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import React from "react";
 
 type TestimonyProps = {
   testimony: {
     id: number;
-    img: string;
+    img: StaticImageData;
     name: string;
     startup: string;
     msg: string;
