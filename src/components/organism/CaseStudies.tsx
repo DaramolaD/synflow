@@ -30,6 +30,7 @@ const caseStudiesData = [
     style: {
       bg: "bg-dark-50",
       border: "border-dark-200",
+      btn: "hover:bg-dark-300",
     },
   },
   {
@@ -42,6 +43,7 @@ const caseStudiesData = [
     style: {
       bg: "bg-primary-50",
       border: "border-primary-200",
+      btn: "hover:bg-primary-300",
     },
   },
   {
@@ -53,7 +55,8 @@ const caseStudiesData = [
       "BlueWave Enterprises had chaotic expense tracking and lacked financial visibility. With our comprehensive expense tracking and integration with accounting software, they gained full control over their finances, reducing wastage and improving budgeting.",
     style: {
       bg: "bg-moody_blue-50",
-      border: "bg-moody_blue-200",
+      border: "border-moody_blue-200",
+      btn: "hover:bg-moody_blue-300",
     },
   },
 ];
