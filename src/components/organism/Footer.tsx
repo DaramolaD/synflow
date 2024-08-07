@@ -6,7 +6,7 @@ import SocialMedia from "../molecules/SociaMedia";
 
 const Footer = () => {
   return (
-    <div className="sectionContainer flex flex-col gap-20 px-5 md:px-10 py-5">
+    <div className="sectionContainer flex flex-col gap-20 px-5 md:px-10 py-5 bg-dark-60 pt-9 rounded-3xl">
       <div className="grid gap-12">
         <div className="flex flex-col gap-4">
           <Logo width={120} height={40} className="w-32 tablet:w-28 lg:w-40" />
@@ -47,7 +47,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex items-center text-center justify-center border-t border-dark-70 pt-10">
-        <p className="text-sm">© SynFlow Limited 2024. All right reserved.</p>
+        <p className="text-xs md:text-sm">© SynFlow Limited 2024. All right reserved.</p>
       </div>
     </div>
   );
