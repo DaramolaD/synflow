@@ -11,13 +11,16 @@ const Footer = () => {
         <div className="flex flex-col gap-4">
           <Logo width={120} height={40} className="w-32 tablet:w-28 lg:w-40" />
           <p className="text-base">Don&apos;t miss our latest update</p>
-          <form action="" className="flex flex-col gap-3 outline-none">
+          <form
+            action=""
+            className="flex flex-col md:flex-row gap-3 outline-none max-w-[670px] w-full"
+          >
             <Input
               type="email"
               placeholder="Enter Your Email"
               className="focus:border-primary-50 focus:outline-none"
             />
-            <Button className="ghost bg-button-gradient text-white hover:shadow-green-300 hover:shadow-md !font-medium w-fit flex items-center py-2 px-5 h-fit rounded-xl gap-1">
+            <Button className="ghost bg-button-gradient text-white hover:shadow-green-300 hover:shadow-md !font-medium w-fit flex items-center py-2 px-10 md:px-10 h-10 rounded-xl gap-1">
               Submit
             </Button>
           </form>
