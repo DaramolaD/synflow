@@ -30,7 +30,7 @@ const Testimonies = () => {
             highlight the value we bring
           </p>
         </div>
-        <div className="flex gap-3 w-full overflow-auto">
+        <div className="flex gap-3 w-full overflow-auto pb-5">
           {testominies.map((testimony) => (
             <TestimonyItem key={testimony.id} testimony={testimony} />
           ))}

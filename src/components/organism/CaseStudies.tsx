@@ -8,7 +8,7 @@ const CaseStudies = () => {
   return (
     <div className="sectionContainer w-full flex flex-col gap-10 pb-12 px-5 md:px-10 overflow-hidden">
       <Heading2 title="CaseStudies" />
-      <div className="flex items-stretch overflow-auto gap-5 ">
+      <div className="flex items-stretch overflow-auto gap-5 pb-5">
         {caseStudiesData.map((caseStudy) => (
           <CaseStudyItem key={caseStudy.id} data={caseStudy} />
         ))}

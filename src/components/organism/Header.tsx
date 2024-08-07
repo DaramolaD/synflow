@@ -18,6 +18,7 @@ const Header = () => {
         <Cta
           className="hidden tablet:flex gap-5"
           primaryCta="Book a demo"
+          primaryStyle="hover:shadow-green-300 hover:shadow-md"
           secondaryCta="Login"
           secondaryStyle="border-transparent border hover:!border-primary-400 hover:text-primary-950 hover:bg-white bg-transparent"
         />
@@ -38,8 +39,9 @@ const Header = () => {
           <MobileNav />
           <Cta
             className="px-5 gap-5 pt-5 items-start flex-col-reverse"
-            secondaryStyle="border border-primary-400 bg-transparent"
+            secondaryStyle="border border-primary-950 hover:border-primary-400 bg-transparent"
             primaryCta="Book a demo"
+            primaryStyle="hover:shadow-green-300 hover:shadow-md"
             secondaryCta="Login"
           />
         </div>
