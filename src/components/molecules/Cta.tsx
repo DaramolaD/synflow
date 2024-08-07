@@ -30,7 +30,7 @@ const Cta: React.FC<CtaProps> = ({
     >
       <Button
         className={cn(
-          "ghost hover:text-primary-main !font-medium w-fit flex items-center py-4 px-5 h-fit rounded-xl gap-1",
+          "ghost hover:text-primary-main !font-normal w-fit flex items-center py-4 px-5 h-fit rounded-xl gap-1",
           secondaryStyle
         )}
       >
@@ -39,7 +39,7 @@ const Cta: React.FC<CtaProps> = ({
       </Button>
       <Button
         className={cn(
-          "bg-gradient-to-t from-primary-main !font-medium to-primary-15 text-white flex items-center py-4 px-5 h-fit rounded-xl gap-1",
+          "bg-gradient-to-t from-primary-main !font-normal to-primary-15 text-white flex items-center py-4 px-5 h-fit rounded-xl gap-1",
           primaryStyle
         )}
       >

@@ -222,11 +222,11 @@ export function NavigationMenuDemo({ className }: { className?: string }) {
     <NavigationMenu className={className}>
       <NavigationMenuList className="grid md:flex">
         <NavigationMenuItem>
-          <NavigationMenuTrigger className="text-black data-[active]:bg-transparentbg-accent/50 data-[state=open]:bg-transparent hover:text-primary-main bg-transparent hover:bg-transparent focus:bg-transparent focus:text-primary-main">
+          <NavigationMenuTrigger className="text-primary-950 data-[active]:bg-white data-[state=open]:bg-white hover:text-primary-950 bg-transparent hover:bg-white focus:bg-white focus:text-primary-950">
             Product
           </NavigationMenuTrigger>
           <NavigationMenuContent>
-            <ul className="grid w-[400px] gap-3 p-4 md:w-[700px] md:grid-cols-3 lg:grid-cols-3 lg:w-[700px]">
+            <ul className="grid w-[400px] gap-3 p-4 md:w-[700px] md:grid-cols-3 lg:grid-cols-3 lg:w-[800px]">
               {features.map((feature) => (
                 <ListItem key={feature.title} title={feature.title} href="#">
                   {feature.description}
@@ -236,7 +236,7 @@ export function NavigationMenuDemo({ className }: { className?: string }) {
           </NavigationMenuContent>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuTrigger className="text-black data-[active]:bg-transparentbg-accent/50 data-[state=open]:bg-transparent hover:text-primary-main bg-transparent hover:bg-transparent focus:bg-transparent focus:text-primary-main">
+        <NavigationMenuTrigger className="text-primary-950 data-[active]:bg-white data-[state=open]:bg-white hover:text-primary-950 bg-transparent hover:bg-white focus:bg-white focus:text-primary-950">
             Solution
           </NavigationMenuTrigger>
           <NavigationMenuContent>
@@ -250,7 +250,7 @@ export function NavigationMenuDemo({ className }: { className?: string }) {
           </NavigationMenuContent>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuTrigger className="text-black data-[active]:bg-transparentbg-accent/50 data-[state=open]:bg-transparent hover:text-primary-main bg-transparent hover:bg-transparent focus:bg-transparent focus:text-primary-main">
+        <NavigationMenuTrigger className="text-primary-950 data-[active]:bg-white data-[state=open]:bg-white hover:text-primary-950 bg-transparent hover:bg-white focus:bg-white focus:text-primary-950">
             Case-Studies
           </NavigationMenuTrigger>
           <NavigationMenuContent>
@@ -264,7 +264,7 @@ export function NavigationMenuDemo({ className }: { className?: string }) {
           </NavigationMenuContent>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuTrigger className="text-black data-[active]:bg-transparentbg-accent/50 data-[state=open]:bg-transparent hover:text-primary-main bg-transparent hover:bg-transparent focus:bg-transparent focus:text-primary-main">
+        <NavigationMenuTrigger className="text-primary-950 data-[active]:bg-white data-[state=open]:bg-white hover:text-primary-950 bg-transparent hover:bg-white focus:bg-white focus:text-primary-950">
             Resources
           </NavigationMenuTrigger>
           <NavigationMenuContent>
@@ -279,7 +279,7 @@ export function NavigationMenuDemo({ className }: { className?: string }) {
         </NavigationMenuItem>
         <NavigationMenuItem>
           <Link href="#" legacyBehavior passHref>
-            <NavigationMenuLink className="text-sm px-4 py-2 font-medium leading-none text-black data-[active]:bg-transparentbg-accent/50 data-[state=open]:bg-transparent hover:text-primary-main bg-transparent hover:bg-transparent focus:bg-transparent focus:text-primary-main">
+            <NavigationMenuLink className="text-sm px-4 py-2 font-medium leading-none rounded-[6px] h-10 flex items-center text-primary-950 data-[active]:bg-white data-[state=open]:bg-white hover:text-primary-950 bg-transparent hover:bg-white focus:bg-white focus:text-primary-950">
               Pricing
             </NavigationMenuLink>
           </Link>
