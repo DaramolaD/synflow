@@ -25,7 +25,7 @@ const Hero = () => {
             primaryIcon={<ArrowRight />}
             primaryStyle="hover:shadow-green-300 hover:shadow-md flex-row-reverse items-center text-base font-semibold hover:border-orange-500"
             secondaryCta="Book a demo"
-            secondaryStyle="text-primary-950 border border-primary-950 bg-transparent hover:text-white hover:bg-button-gradient hover:border-primary-400"
+            secondaryStyle="text-primary-950 border border-primary-950 bg-transparent hover:text-primary-950 hover:bg-white hover:border-primary-400"
             className="flex-col-reverse md:!flex-row-reverse gap-5 flex-wrap items-start md:items-center"
           />
         </div>

@@ -19,7 +19,7 @@ const Header = () => {
           className="hidden tablet:flex gap-5"
           primaryCta="Book a demo"
           secondaryCta="Login"
-          secondaryStyle="border-transparent hover:border border-primary-400 bg-transparent"
+          secondaryStyle="border-transparent border hover:!border-primary-400 hover:text-primary-950 hover:bg-white bg-transparent"
         />
         {!menuToggle ? (
           <Menu
@@ -34,7 +34,7 @@ const Header = () => {
         )}
       </div>
       {menuToggle && (
-        <div className="grid tablet:hidden w-full absolute px-5 md:px-8 pb-14 pt-[90px] top-0 left-0 bg-headerColor/100">
+        <div className="bg-white grid tablet:hidden w-full absolute px-5 md:px-8 pb-14 pt-[90px] top-0 left-0 bg-headerColor/100">
           <MobileNav />
           <Cta
             className="px-5 gap-5 pt-5 items-start flex-col-reverse"
