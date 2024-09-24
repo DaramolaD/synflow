@@ -1,5 +1,4 @@
 import React from "react";
-import TestimonyItem from "../molecules/TestimonyItem";
 import avatar_1 from "@/assets/avatar_1.jpg";
 import avatar_2 from "@/assets/avatar_2.jpg";
 import avatar_3 from "@/assets/avatar_3.jpg";
@@ -9,11 +8,13 @@ import avatar_6 from "@/assets/avatar_6.jpg";
 import avatar_7 from "@/assets/avatar_7.jpg";
 import avatar_8 from "@/assets/avatar_8.jpg";
 import avatar_9 from "@/assets/avatar_9.jpg";
+import { InfiniteMovingTestimonials } from "../molecules/infinite-moving-cards";
+import TestimonyItem from "../molecules/TestimonyItem";
 
 const Testimonies = () => {
   return (
     <div className="sectionContainer px-5 md:px-10 pt-10 pb-7 md:pb-12 md:pt-14 overflow-hidden w-full">
-      <div className="flex flex-col gap-10 md:gap-16 items-center justify-center bg-dark-60 px-3 pt-14 pb-7 rounded-2xl md:rounded-[50px]">
+      <div className="flex flex-col gap-10 items-center justify-center bg-dark-60 px-3 pt-14 pb-7 rounded-2xl md:rounded-[50px]">
         <div className="flex flex-col gap-3 text-center items-center justify-center">
           <div className="flex px-5 p-3 w-fit bg-gradient-to-t from-primary-main to-primary-15 rounded-xl">
             <h2 className="text-white">Testimonies</h2>
@@ -31,9 +32,12 @@ const Testimonies = () => {
           </p>
         </div>
         <div className="flex gap-3 w-full overflow-auto pb-5">
-          {testominies.map((testimony) => (
-            <TestimonyItem key={testimony.id} testimony={testimony} />
-          ))}
+          <InfiniteMovingTestimonials
+            items={testimonies}
+            renderItem={(testimony) => <TestimonyItem testimony={testimony} />}
+            speed="normal"
+            direction="right"
+          />
         </div>
       </div>
     </div>
@@ -42,7 +46,7 @@ const Testimonies = () => {
 
 export default Testimonies;
 
-const testominies = [
+const testimonies = [
   {
     id: 1,
     img: avatar_1,

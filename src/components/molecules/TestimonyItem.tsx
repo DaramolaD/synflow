@@ -13,7 +13,7 @@ type TestimonyProps = {
 
 const TestimonyItem: React.FC<TestimonyProps> = ({ testimony }) => {
   return (
-    <div className="min-w-[300px] border flex flex-col p-5 my-4 rounded-2xl shadow-lg bg-white">
+    <div className="min-w-[300px] max-w-[400px] border flex flex-col p-5 my-4 rounded-2xl shadow-lg bg-white">
       <div className="flex gap-5 items-start">
         <Image
           alt="avatar"
@@ -24,10 +24,10 @@ const TestimonyItem: React.FC<TestimonyProps> = ({ testimony }) => {
         />
         <div className="flex flex-col gap-1 md:gap-2">
           <p className="font-semibold">{testimony.name}</p>
-          <p className="text-sm text-gray-600">{testimony.startup}</p>
+          <p className="text-sm text-gray-600 line-clamp-2 min-h-[2.5rem] md:min-h-[2.75rem] overflow-hidden text-ellipsis">{testimony.startup}</p>
         </div>
       </div>
-      <p className="text-sm md:text-base mt-4 text-gray-700">{testimony.msg}</p>
+      <p className="text-sm md:text-base mt-4 text-gray-700 line-clamp-3">{testimony.msg}</p>
     </div>
   );
 };
