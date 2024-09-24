@@ -78,3 +78,13 @@
   padding-block: 40px;
   padding-inline: 24px 16px;
 }
+
+/* Add this to your CSS file or inside a <style> tag in your component */
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for Chrome, Safari and Opera */
+}
+
+.scrollbar-hidden {
+  -ms-overflow-style: none; /* Hide scrollbar for Internet Explorer and Edge */
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
+}

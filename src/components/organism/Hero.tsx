@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import HeroNote from "../molecules/HeroNote";
 import Cta from "../molecules/Cta";
 import { ArrowRight } from "lucide-react";
@@ -11,7 +12,10 @@ const Hero = () => {
   return (
     <div className="bg-hero-gradient w-full h-fit">
       <div className="sectionContainer flex flex-col py-32 pb-10 lg:py-40 lg:pb-20 items-center gap-20 md:gap-24 px-5 md:px-10">
-        <div className="flex flex-col gap-6 text-center items-start md:items-center justify-center">
+      <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }} className="flex flex-col gap-6 text-center items-start md:items-center justify-center">
           <HeroNote />
           <h1 className="text-black text-3xl md:text-5xl font-medium max-w-[833px] text-left md:text-center">
             Effortlessly Manage All Your Startup&apos;s Finances in One Place
@@ -28,8 +32,11 @@ const Hero = () => {
             secondaryStyle="text-primary-950 border border-primary-950 bg-transparent hover:text-primary-950 hover:bg-white hover:border-primary-400"
             className="flex-col-reverse md:!flex-row-reverse gap-5 flex-wrap items-start md:items-center"
           />
-        </div>
-        <div className="w-full flex flex-col relative items-start justify-center">
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.3 }} className="w-full flex flex-col relative items-start justify-center">
           <Image
             src={heroDashboard}
             quality={100}
@@ -45,7 +52,7 @@ const Hero = () => {
             className="w-full !h-fit md:hidden !relative"
           />
           <Brands />
-        </div>
+        </motion.div>
       </div>
     </div>
   );

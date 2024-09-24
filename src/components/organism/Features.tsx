@@ -67,7 +67,7 @@ const features = [
     subState: {
       state: "paymentProcessing",
       subTitle:
-        "Effortlessly manage all your transactions in one secure platform22.",
+        "Effortlessly manage all your transactions in one secure platform.",
     },
   },
   {
@@ -76,7 +76,7 @@ const features = [
     subState: {
       state: "paymentProcessing",
       subTitle:
-        "Effortlessly manage all your transactions in one secure platform33.",
+        "Effortlessly manage all your transactions in one secure platform.",
     },
   },
   {
@@ -85,7 +85,7 @@ const features = [
     subState: {
       state: "paymentProcessing",
       subTitle:
-        "Effortlessly manage all your transactions in one secure platform444.",
+        "Effortlessly manage all your transactions in one secure platform.",
     },
   },
   {
@@ -94,7 +94,7 @@ const features = [
     subState: {
       state: "paymentProcessing",
       subTitle:
-        "Effortlessly manage all your transactions in one secure platform55.",
+        "Effortlessly manage all your transactions in one secure platform.",
     },
   },
   {
@@ -103,7 +103,7 @@ const features = [
     subState: {
       state: "paymentProcessing",
       subTitle:
-        "Effortlessly manage all your transactions in one secure platform6.",
+        "Effortlessly manage all your transactions in one secure platform.",
     },
   },
 ];
